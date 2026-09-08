@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4f4655;
+    background-color: #fffafd;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #b8a1c9;
+    color: white;
+    padding: 10px 0;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#about {
+    background-color: #f9edf2;
+    text-align: center;
+}
+
+.profile-image {
+    width: 300px;
+    height: auto;
+    border: 5px solid white;
+}
+
+h1 {
+    color: #695273;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #795c8a;
+}
+
+#projects {
+    background-color: #f1eef8;
+}
+
+.project-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.project h3 {
+    color: #795c8a;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+#contact {
+    background-color: #edf6f2;
+    text-align: center;
+}
+
+#contact a {
+    color: #695273;
+}
+
+footer {
+    text-align: center;
+    padding: 12px 0;
+    background-color: #695273;
+    color: white;
+}
